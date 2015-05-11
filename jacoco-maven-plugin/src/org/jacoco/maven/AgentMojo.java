@@ -45,7 +45,11 @@ import java.io.File;
  *   &lt;/plugin&gt;
  * </pre>
  * 
- * 
+ * <p>
+ * Note that depending on the test plug-in used you might need to configure a
+ * different property: For example if your tests are executed with the
+ * eclipse-test-plugin the respective property is tycho.testArgLine.
+ * </p>
  * <p>
  * Resulting coverage information is collected during execution and by default
  * written to a file when the process terminates.
